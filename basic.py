@@ -15,6 +15,5 @@ def discord():
 def weight_tracker():
 	return render_template('weight_tracker.html')
 
-
 if __name__ == '__main__':
 	app.run(debug=True, host='0.0.0.0')
